@@ -1,0 +1,11 @@
+/* Modify Bootstrap Custom */
+
+/* Modify navbar background-color */
+.navbar-custom {
+  background-color: #161617cc;
+}
+
+/* Modify brand and text color */
+.navbar-text-custom {
+  color: white;
+}
