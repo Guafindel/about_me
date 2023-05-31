@@ -4,12 +4,11 @@ import org.apache.commons.net.ftp.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.*;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -128,7 +127,6 @@ public class MyFtp extends HttpServlet {
                 parentMap.put("dirUrl", parentDir);
                 dirList.add(0, parentMap);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
