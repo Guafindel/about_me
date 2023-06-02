@@ -44,6 +44,9 @@
 <%--								or even commercial ones &ndash; just be sure to credit <a href="http://html5up.net">HTML5 UP</a> for the design. If you like what you see here, be sure to check out--%>
 <%--								<a href="http://html5up.net">HTML5 UP</a> for more cool designs or follow me on <a href="http://twitter.com/ajlkn">Twitter</a> for new releases and updates.--%>
 <%--							</p>--%>
+							<div id="outside">
+								Outside Element
+							</div>
 						</article>
 					<!-- Post -->
 <%--						<article class="box post post-excerpt">--%>
@@ -216,5 +219,6 @@
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
+			<script src="js/index.js"></script>
 	</body>
 </html>
